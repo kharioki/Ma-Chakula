@@ -4,7 +4,7 @@
   "description": "A recipe app built with tailwind css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
